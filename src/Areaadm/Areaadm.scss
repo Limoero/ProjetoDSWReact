@@ -1,0 +1,81 @@
+li,
+a {
+    font-family: 'Roboto', sans-serif;
+    text-decoration: none;
+    background-color: #546d64; /* Green background color */
+    border-radius: 10px; /* Add rounded corners */
+    color: white; /* White text color */
+    padding: 15px 32px; /* Padding */
+    text-align: center; /* Center text */
+    text-decoration: none;
+    display: inline-block;
+    font-size: 20px; /* Font size */
+    margin: 10px 2px; /* Margin */
+    cursor: pointer; /* Add a pointer cursor on hover */
+}
+
+body {
+    background-color: #4fb286;
+    width: 100%;
+
+}
+
+header {
+    left: 1;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px 10%;
+    flex-direction: row;
+    background-color: #50ffb1;
+}
+
+.logoimg {
+    cursor: pointer;
+}
+
+
+::placeholder {
+    color: white;
+}
+
+
+
+/* Parte das promos */
+.f1-faixa {
+    display: flex;
+    justify-content: center;
+    padding-top: 200px;
+    
+}
+
+.f1conteudo {
+    display: flex;
+    align-self: center;
+    color: white;
+    justify-content: space-between;
+}
+
+
+.texto1{
+    color: white;
+}
+
+.texto2{
+    color: white;
+}
+
+/* Parte dos botões */
+
+
+
+@media screen and (max-width: 768px) {
+    .f2-imagens {
+        flex-direction: column;
+    }
+}
+/*
+border-radius: 30px;
+padding: 20px;
+width: 200px;
+height: 200px; */
