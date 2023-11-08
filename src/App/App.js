@@ -11,12 +11,12 @@ export default function App() {
 
       <header class="cabecalho">
 
-        <img src="{logo}" alt="logo flashlimp" height="120" width="120" />
+        <Link><img src="{logo}" alt="logo flashlimp" height="120" width="120" /></Link>
         <div class="pesquisar">
           <input type="text" name="pesquisar" id="pesquisa" placeholder="O que deseja pesquisar?" size="60" />
         </div>
 
-        <input type="button" value="Login" />
+       <Link to='/loginadm'><input type="button" value="Login" /></Link> 
       </header>
       <section class="f1-faixa">
         <div class="f1conteudo">

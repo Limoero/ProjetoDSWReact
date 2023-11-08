@@ -10,7 +10,8 @@ import { BrowserRouter, Routes, Route } from 'react-router-dom'
 import App from './App/App.js';
 import Sobre from './Sobre/Sobre.js';
 import NaoEncontrado from './NaoEncontrado/NaoEncontrado.js';
-import Areaadm from './Areaadm/Areaadm';
+import Areaadm from './Areaadm/Areaadm.js';
+import loginadm from './loginadm/loginadm.js';
 
 /* Router faz com que crie rotas pra poder acessar as páginas*/
 
@@ -25,7 +26,7 @@ root.render(
         <Route path='/Sobre' element={<Sobre />} />
         <Route path='/Areaadm' element={<Areaadm/>} />
         <Route path='/*' element={<NaoEncontrado />} />
-        
+        <Route path='/loginadm' element={<loginadm/>} /> 
       </Routes>
     </BrowserRouter>
   </React.StrictMode>
