@@ -8,10 +8,9 @@ import { BrowserRouter, Routes, Route } from 'react-router-dom'
 
 /* Imports pra funcionar tudo */
 import App from './App/App.js';
-import Sobre from './Sobre/Sobre.js';
 import NaoEncontrado from './NaoEncontrado/NaoEncontrado.js';
 import Areaadm from './Areaadm/Areaadm.js';
-import loginadm from './loginadm/loginadm.js';
+import Loginadm from './Loginadm/Loginadm.js';
 
 /* Router faz com que crie rotas pra poder acessar as páginas*/
 
@@ -23,10 +22,9 @@ root.render(
       <Routes>
         
         <Route path='/' element={<App />} />
-        <Route path='/Sobre' element={<Sobre />} />
         <Route path='/Areaadm' element={<Areaadm/>} />
         <Route path='/*' element={<NaoEncontrado />} />
-        <Route path='/loginadm' element={<loginadm/>} /> 
+        <Route path='/loginadm' element={<Loginadm />} /> 
       </Routes>
     </BrowserRouter>
   </React.StrictMode>

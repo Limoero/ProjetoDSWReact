@@ -1,4 +1,5 @@
 import './Areaadm.scss';
+import logo from './flashlogo.png'
 
 import { Link } from 'react-router-dom';
 
@@ -9,7 +10,7 @@ export default function App() {
 
         <header className="cabecalho">
     
-           <Link to='/' ><img alt="logo flashlimp" className="logoimg" height="120" width="120"/></Link>
+           <Link to='/' ><img src={logo} alt="logo flashlimp" className="logoimg" height="120" width="120"/></Link>
             <div className="texto1">
                 <h1>O que deseja fazer?</h1>
             </div>

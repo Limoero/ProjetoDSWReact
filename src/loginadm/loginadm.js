@@ -1,7 +1,7 @@
 import './login.scss';
 import { Link } from 'react-router-dom';
 
-export default function LoginAdm() {
+export default function Loginadm() {
   return (
     <div className="login-container">
       <header className="cabecalho">
@@ -14,7 +14,6 @@ export default function LoginAdm() {
             width="120"
           />
         </Link>
-        <button type="button">Login</button>
       </header>
 
       <section className="faixa-1">
