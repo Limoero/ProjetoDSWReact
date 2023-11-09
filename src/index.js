@@ -10,7 +10,7 @@ import { BrowserRouter, Routes, Route } from 'react-router-dom'
 import App from './App/App.js';
 import NaoEncontrado from './NaoEncontrado/NaoEncontrado.js';
 import Areaadm from './Areaadm/Areaadm.js';
-import Loginadm from './Loginadm/Loginadm.js';
+import Loginadm from './loginadm/Loginadm.js';
 
 /* Router faz com que crie rotas pra poder acessar as páginas*/
 

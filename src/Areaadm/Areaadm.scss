@@ -1,9 +1,8 @@
 li,
 a {
     font-family: 'Roboto', sans-serif;
-    text-decoration: none;
-    background-color: #546d64; /* Green background color */
-    border-radius: 10px; /* Add rounded corners */
+    text-decoration: none; /* Green background color */
+    border-radius: 40px; /* Add rounded corners */
     color: white; /* White text color */
     padding: 15px 32px; /* Padding */
     text-align: center; /* Center text */
@@ -11,7 +10,6 @@ a {
     display: inline-block;
     font-size: 20px; /* Font size */
     margin: 10px 2px; /* Margin */
-    cursor: pointer; /* Add a pointer cursor on hover */
 }
 
 body {
@@ -43,6 +41,7 @@ header {
 
 /* Parte das promos */
 .f1-faixa {
+    background-color: #3C896D;
     display: flex;
     justify-content: center;
     padding-top: 200px;
@@ -67,7 +66,18 @@ header {
 
 /* Parte dos botões */
 
-
+.botoes{
+    font-family: 'Roboto', sans-serif;
+    text-decoration: none;
+    border-radius: 10px; /* Add rounded corners */
+    color: white; /* White text color */
+    padding: 15px 32px; /* Padding */
+    text-align: center; /* Center text */
+    text-decoration: none;
+    display: inline-block;
+    font-size: 20px; /* Font size */
+    margin: 10px 2px; /* Margin */
+}
 
 @media screen and (max-width: 768px) {
     .f2-imagens {
