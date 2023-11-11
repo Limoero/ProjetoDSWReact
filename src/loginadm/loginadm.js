@@ -1,4 +1,5 @@
 import './login.scss';
+
 import { Link } from 'react-router-dom';
 
 export default function Loginadm() {
@@ -21,12 +22,12 @@ export default function Loginadm() {
           <form className="login-form">
             <h1>Login</h1>
             <label htmlFor="email">E-mail</label>
-            <input type="email" name="email" id="email" />
+            <input type="email" name="email" id="email" required />
             <label htmlFor="senha">Senha</label>
-            <input type="password" name="senha" id="senha" />
-            <Link to="/areaadm" className="login-btn">
-              Login
-            </Link>
+            <input type="password" name="senha" id="senha" required />
+            <Link to="/areaadm" className="login-btn">  Login  </Link>
+            <Link to="/cadastraradm" className="login-btn">  Cadastrar  </Link>
+
           </form>
         </div>
       </section>

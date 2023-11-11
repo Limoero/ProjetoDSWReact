@@ -1,0 +1,70 @@
+
+header {
+    left: 1;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px 10%;
+    flex-direction: row;
+    background-color: #50ffb5;
+}
+
+.logoimg {
+    cursor: pointer;
+}
+
+input {
+    background-color: #4fb286;
+    padding: 20px 30px;
+    border-radius: 30px;
+    border: none;
+    color: white;
+}
+
+header>h3 {
+    color: white;
+}
+
+::placeholder {
+    color: white;
+}
+
+
+button {
+    padding: 20px 30px;
+    text-align: center;
+    color: white;
+    border: none;
+    font-size: 30px;
+    border-radius: 30px;
+}
+
+
+/* Parte das promos */
+.faixa-1 {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+
+}
+
+.f1conteudo {
+    top: 10px;
+    position: relative;
+    color: white;
+    display: flex;
+    justify-content: center;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+
+}
+
+input{
+    
+    background-color: #3c896d;
+    
+}

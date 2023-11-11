@@ -8,7 +8,6 @@ a {
 }
 
 body {
-    background-color: #3C896D;
     width: 100%;
 
 }
@@ -40,17 +39,6 @@ input {
 }
 
 
-button {
-    background-color: #4fb286;
-    padding: 20px 30px;
-    text-align: center;
-    color: white;
-    border: none;
-    font-size: 30px;
-    border-radius: 30px;
-}
-
-
 /* Parte das promos */
 .faixa-1 {
     display: flex;
@@ -70,6 +58,16 @@ form{
     display: flex;
     flex-direction: column;
     gap:30px;
-    background-color: #3C896D;
     
+}
+
+input{
+    background-color: #3c896d;
+}
+
+#email, #senha{
+    background-color: #3c896d;
+}
+.login-btn{
+    background-color: #3c896d ;
 }

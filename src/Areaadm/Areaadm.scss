@@ -41,7 +41,6 @@ header {
 
 /* Parte das promos */
 .f1-faixa {
-    background-color: #3C896D;
     display: flex;
     justify-content: center;
     padding-top: 200px;
@@ -67,6 +66,7 @@ header {
 /* Parte dos botões */
 
 .botoes{
+    background-color: #3c896d;
     font-family: 'Roboto', sans-serif;
     text-decoration: none;
     border-radius: 10px; /* Add rounded corners */

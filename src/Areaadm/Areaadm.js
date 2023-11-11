@@ -15,13 +15,13 @@ export default function App() {
                 <h1>O que deseja fazer?</h1>
             </div>
             <div className="texto2">
-                <h3>Bem vindo, Administrador</h3>
+                <h3>Bem vindo</h3>
             </div>
         </header>
         <section className="f1-faixa">
             <div className="f1conteudo">
                 <div className="botoes">
-                    <a href="/html/criarproduto.html" className="my-button">Criar Produto</a>
+                 <Link to='/CriarProduto'> Criar Produto </Link>
                     <a href="/html/conaltproduto.html" className="my-button">Consultar/Alterar Produto</a>
                 </div>
             </div>

@@ -10,7 +10,8 @@ import { BrowserRouter, Routes, Route } from 'react-router-dom'
 import App from './App/App.js';
 import NaoEncontrado from './NaoEncontrado/NaoEncontrado.js';
 import Areaadm from './Areaadm/Areaadm.js';
-import Loginadm from './loginadm/Loginadm.js';
+import Loginadm from './Loginadm/Loginadm.js';
+import CriarProduto from './CriarProduto/CriarProduto.js';
 
 /* Router faz com que crie rotas pra poder acessar as páginas*/
 
@@ -24,7 +25,8 @@ root.render(
         <Route path='/' element={<App />} />
         <Route path='/Areaadm' element={<Areaadm/>} />
         <Route path='/*' element={<NaoEncontrado />} />
-        <Route path='/loginadm' element={<Loginadm />} /> 
+        <Route path='/Loginadm' element={<Loginadm />} />
+        <Route path='/criarproduto' element={<CriarProduto/>}/>
       </Routes>
     </BrowserRouter>
   </React.StrictMode>
