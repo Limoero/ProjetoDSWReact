@@ -1,4 +1,4 @@
-import { salvar } from "../api/crudproduto";
+import { listar, salvar } from "../api/crudproduto";
 import { Router } from "express";
 
  const endpoints = Router();
@@ -17,3 +17,15 @@ import { Router } from "express";
         })
     }
  });
+
+ endpoints.get('/produto', async (req, resp) => {
+  try{
+    let r = await listar();
+    resp.send(r);
+  }
+  catch (err){
+    resp.status(400).send({
+      erro: err.message
+    })
+  }
+ })

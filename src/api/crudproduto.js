@@ -16,7 +16,12 @@ export async function salvar(produto) {
         return produto;
 }
 
-export function listar() {
+export async function listar() {
+    const comando = ` SELECT * FROM tb_produto`
+
+
+    const [linhas] = await con.query(comando);
+    return linhas;
 
 }
 
